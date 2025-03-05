@@ -1,0 +1,10 @@
+jupyter==1.0.0
+matplotlib==3.5.1
+numpy==1.22.3
+pandas==1.4.2
+scikit-learn==1.1.1
+tensorboard==2.9.1
+tqdm==4.64
+seaborn==0.11.2
+dill==0.3.6
+xxhash==3.4.1

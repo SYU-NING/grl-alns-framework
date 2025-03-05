@@ -1,0 +1,34 @@
+venv/
+
+# Ignore Mac system files
+./.DS_Store
+.DS_Store
+find . -name '.DS_Store' -type f -delete
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+# Ignore the creation of __pycache__ files:
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore the creation of ipynb_checkpoints: 
+.ipynb_checkpoints
+**/*.ipynb_checkpoints/
+
+.idea/
+
+# ------------
+# You can use this method for other files as well. For example, you could use 
+# find . -name '*.js' -type f -delete to delete all JavaScript files within a containing folder.
+
+# Ignore node_modules folder (example)
+# node_modules
+
+# Ignore all text files (example)
+# *.txt
+
+# Ignore files related to API keys (example)
+# .env
+
+# Ignore SASS config files
+# .sass-cache
